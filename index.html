@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NW Tracker — Privacy &amp; Data</title>
+<meta name="description" content="Privacy notice and data-deletion request route for NW Tracker, a personal net-worth tracker for India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Lora:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#241E18; --ink-soft:#3B322A; --muted-2:#7A6C57;
+    --surface:#FFFFFF; --border:#E4E0D8; --accent:#004958;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:40px 20px 72px; font-family:"IBM Plex Sans",system-ui,sans-serif;
+         font-size:16px; line-height:1.6; color:var(--ink-soft); background:var(--surface); }
+  main { max-width:680px; margin:0 auto; }
+  h1 { font-family:Lora,Georgia,serif; font-size:30px; line-height:1.2; color:var(--ink);
+       margin:0 0 6px; letter-spacing:-.01em; }
+  h2 { font-family:Lora,Georgia,serif; font-size:19px; color:var(--ink); margin:36px 0 10px; }
+  .meta { font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--muted-2);
+          letter-spacing:.04em; margin:0 0 28px; }
+  p { margin:0 0 12px; }
+  .card { border:1px solid var(--border); border-radius:10px; padding:18px 20px; margin:28px 0 0; }
+  .card h2 { margin-top:0; }
+  ol { margin:10px 0 0; padding-left:22px; } li { margin-bottom:8px; }
+  a { color:var(--accent); }
+  footer { margin-top:44px; padding-top:18px; border-top:1px solid var(--border);
+           font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted-2); }
+  @media (max-width:520px) { body { padding:28px 18px 56px; } h1 { font-size:25px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>NW Tracker — Privacy &amp; Data</h1>
+  <p class="meta">Version 1.0 · Updated 1 October 2026</p>
+
+      <section>
+        <h2>Who we are</h2>
+        <p>NW Tracker is a personal net-worth tracker for individuals in India, published by Increpe Technologies. We are responsible for the data you give us and for what is set out in this notice. If the law requires more of us than this notice describes, the law governs.</p>
+        <p>If you have a question or a complaint about how your data is handled, or you want to exercise any of the rights set out below, write to support@increpe.com. That address reaches the person responsible for answering it. We will do our best to reply quickly, and to tell you where things stand rather than leave you waiting. Requests are handled one at a time by a person — there is no automated process behind that address.</p>
+        <p>We are not a bank, a broker, or an investment adviser. We move no money, connect to no accounts, and give no investment advice.</p>
+      </section>
+
+      <section>
+        <h2>What we collect</h2>
+        <p>Your name and email address, to create and secure your account and to send verification and password-reset codes.</p>
+        <p>The assets and liabilities you enter, including their names, categories, values, and the history of changes you record.</p>
+        <p>Your recurring financial obligations — the commitments you record such as rent, utilities, premiums and fees, with their amounts and how often they fall due. We record what you are committed to pay, never what you actually spent: there is no transaction history and no bank connection.</p>
+        <p>That is the complete list. We collect nothing automatically: no bank connections, no transaction feeds, no advertising or analytics trackers, no location, no contacts, no device fingerprinting.</p>
+      </section>
+
+      <section>
+        <h2>Why we collect it</h2>
+        <p>Solely to provide this app to you — to calculate your net worth, show how it has changed, and let you export it.</p>
+        <p>We do not sell your data, share it with advertisers or data brokers, or use it to build a profile of you.</p>
+      </section>
+
+      <section>
+        <h2>How your data is protected</h2>
+        <p>Your financial figures and the names you give your entries are encrypted with AES-256 before they are stored, using an encryption key unique to your account. Someone with access to our database sees ciphertext, not amounts.</p>
+        <p>This is strong encryption at rest. It is NOT end-to-end or zero-knowledge encryption: our servers can decrypt your data when there is a legitimate reason to, such as calculating your net worth or generating an export. We say so plainly because the alternative would be misleading.</p>
+        <p>The reason is a deliberate trade-off. A system that can restore your access through an email password reset must hold recoverable key material. We chose to keep normal password reset rather than claim a guarantee we could not honour.</p>
+        <p>All traffic between the app and our servers uses TLS. Your login session is stored in your device's secure keychain, not in ordinary app storage.</p>
+        <p>Where your data physically sits: we use Supabase, a managed database and authentication provider, to store it. Your records are held in Supabase's Mumbai region (ap-south-1), so they stay in India. Supabase processes this data on our instructions and for no purpose of its own. They are the only third party that holds your financial records.</p>
+      </section>
+
+      <section>
+        <h2>Your rights</h2>
+        <p>Access — you can see all your data in the app at any time, and export it.</p>
+        <p>Correction — you can edit or delete any entry.</p>
+        <p>Portability — you can export everything as a CSV file, including your full value history.</p>
+        <p>Erasure — you can delete your account. This destroys your encryption key and removes your records. You cannot undo it, and neither can we.</p>
+        <p>Nomination — the DPDP Act lets you nominate someone to exercise these rights on your behalf in the event of death or incapacity. This is not built into the app yet. Until it is, write to support@increpe.com to arrange it, or to act for someone who has died or lost capacity, and we will handle the request individually. We will ask for proof of identity and of your authority before acting on it.</p>
+      </section>
+
+      <section>
+        <h2>Withdrawing consent</h2>
+        <p>You consented to this processing when you created your account. You can withdraw that consent at any time by deleting your account, which erases your data permanently.</p>
+        <p>Because the only processing we do is providing the app to you, there is no partial withdrawal: without consent there is nothing for the app to do.</p>
+      </section>
+
+      <section>
+        <h2>How long we keep your data</h2>
+        <p>For as long as your account exists. We keep no separate archive of accounts after they are deleted.</p>
+        <p>Deleting your account destroys your encryption key and removes your records immediately.</p>
+        <p>We take no routine backups of the database, so there is no snapshot holding an older copy of your account and nothing for us to restore from. That is why we can tell you the deletion is final without qualifying it.</p>
+      </section>
+
+      <section>
+        <h2>Changes to this policy</h2>
+        <p>If we change what we collect or why, we will ask for your consent again and record the version you agreed to. You can see your current consent record in the app under Data &amp; Privacy.</p>
+      </section>
+
+  <div class="card" id="delete">
+    <h2>Deleting your account and data</h2>
+    <p>You can delete your account from inside the app at any time. It is a real,
+       complete erasure: your encryption key is destroyed and your records are
+       removed. We keep no backups of the database, so there is no older copy to
+       restore from. It cannot be undone, by you or by us.</p>
+    <ol>
+      <li>Open NW Tracker and sign in</li>
+      <li>Go to <strong>More → Data &amp; privacy → Delete account</strong></li>
+      <li>Read the consequences, then type <strong>DELETE</strong> to confirm</li>
+    </ol>
+    <p>Export your data first if you want a copy — the same screen offers a CSV
+       export, and nothing is recoverable afterwards.</p>
+    <p><strong>If you cannot sign in</strong> and need your data deleted, email
+       <a href="mailto:support@increpe.com">support@increpe.com</a> from the address
+       on the account. We will verify ownership before acting on the request.</p>
+  </div>
+</main>
+<footer>
+  NW Tracker · a personal net-worth tracker for India · no bank connections, no
+  advice, no advertising.
+</footer>
+</body>
+</html>
